@@ -26,6 +26,7 @@
 
 \newcommand{\experience}[4]{{\vspace{-2pt}\bf{\underline{#1}}} \hfill  #2\\{\textsc{#3} \hfill \emph{#4}\\  }}
 
+\newcommand{\project}[1]{\vspace{-2pt}\underline{\bf{#1}}\vspace{5pt}}
 
 \newcommand{\skilltype}[1]{{\large \underline{#1}} \vspace{3pt} \\}
 
@@ -60,16 +61,16 @@
 
 
 \newcommand{\school}[4]{
- \textsc{\underline{#1}} (#3)
- \\ \vspace{3pt} \textbf{#2} 
+ \textbf{\underline{#1}} (#3)
+ \\ \vspace{3pt} \textsc{#2} 
  \\   #4
 \vspace{5pt}
 }
 
 \newcommand{\schooltwo}[6]{
-    \textsc{\underline{#1}} (#3) 
-    \\ \vspace{3pt} \textbf{#2, BS} 
-    \\ Minors: \textbf{#5}
+    \textbf{\underline{#1}} (#3) 
+    \\ \vspace{3pt} \textsc{#2, BS} 
+    \\ Minors: \textsc{#5}
     \\  #4 $\bullet$ \textbf{#6}
     \vspace{3pt}
 }
@@ -91,7 +92,9 @@
 %   Professional Summary 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \header{Professional Summary}
-Software engineer with 6 years experience primarily developing back-end systems in Python. Currently learning front-end development in JavaScript/HTML with React and Bootstrap. Able to learn quickly and communicate complex concepts across knowledge barriers. An analytical thinker with a background in mathematics who enjoys learning new things and tackling difficult problems. 
+A software engineer with 6 years experience (primarily back-end systems in Python), I'm currently learning front-end development (in JavaScript/HTML with React+Bootstrap).
+
+As an analytical thinker with a background in mathematics, I enjoy tackling difficult problems and exploring new ideas. What's more, I'm highly effective at communicating complex concepts across knowledge barriers. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    Skills Section
@@ -272,12 +275,37 @@ Software engineer with 6 years experience primarily developing back-end systems 
 \contact{\huge{Aviva Bulow}}{\text{aviva.bulow@gmail.com}}{+1(720)473-3836}{github.com/aviva-bulow}{linkedin.com/in/aviva-bulow}
 
 \vspace{-10pt}
+\vspace{-10pt}
+
+%%%%%%%%%%%%%%%%%%%%%
+%   Projects
+%%%%%%%%%%%%%%%%%%%%%
+
+\header{Additional Projects}
+
+\project{Garden Timelapse}
+    \begin{achievements}
+        \item Set up a Raspberry Pi to take photos of my garden for a time lapse video.
+        \item Tools used: Raspberry Pi, Bash, Cron, Motion
+    \end{achievements}
+    
+\project{Wine Tasting Tracker}
+    \begin{achievements}
+        \item Created a peice of software to track wine and cheese tasting, rating, and pairing.
+        \item Tools used: Java
+    \end{achievements}
+    
+\project{Food Journal}
+    \begin{achievements}
+        \item Wrote a program that tracked what I ate. 
+        \item Tools used: Java, Bash
+    \end{achievements}
+        
 
 %%%%%%%%%%%%%%%%%%%%%
 %  Presentations
 %%%%%%%%%%%%%%%%%%%%%
 
-\vspace{-10pt}
 \header{Presentations}
 \begin{itemize}
     \item Poster presented at UC Berkeley’s Computational Biology student retreat. \href{https://drive.google.com/file/d/1KP7PMcwjiTxELFN4eLtC5HGHk9OF8_WL/view?usp=sharing}{\emph{The Distortion of an Assembly.}} A. Bulow, T. Courtade, 2017.
